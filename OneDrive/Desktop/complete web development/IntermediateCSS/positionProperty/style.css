@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+}
+
+/*
+Position Property 
+to change the deafult position provided by the html 
+~ Static ---- used to display the deafault position of the html
+
+~ Relative ----- used to position element relative to its normal position. eg : 30px from left where the static image would have been kept.... Coordinates for relative position property are top,bottom,left,right we acn set values in order to determine how we want to move our element according to the values
+So when top property is used eg top : 30px .... then it will move 30px towards bottom from its original position.
+but it doesnot affect the layout of the other elements .....
+
+~Absolute ------ used to position element relative to its parent 
+here you change the flow of the natural html .... you are actually taking the element out of the natural flow of the document...But the best thing is now you can move that particular element anywhere to the screen relative to its parent element. 
+*/
+
+/*
+
+Relative Position 
+.red {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 240px;
+}
+
+.blue {
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 120px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 240px;
+    left: 120px;
+}
+
+*/
+/*
+Absolute postioning*/
+.red{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left:240px;
+    top:0px;
+}
+.blue{
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left:120px;
+    top:0px;
+}
+.yellow{
+    background-color:yellow;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+}
+    
+/*
+Fixed position
+.red {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 120px;
+}
+
+.blue {
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+
+}
+
+.yellow {
+    background-color: yellow;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    top: 0px;
+}
+    */

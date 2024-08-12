@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap');
+
+body {
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+
+}
+
+.cloud_img {
+  width: 100px;
+  height: 100px;
+}
+
+.mountain_img {
+  height: 480px;
+  width: 600px;
+}
+
+/*
+  to hide an element you can use either display : none   or visibility: hidden
+*/
+.name-heading {
+  margin-top: 0px;
+  padding-top: 70px;
+  font-family: "Sacramento", cursive;
+  font-size: 5.2rem;
+  /*  use rem  for font size ..... 1 em = 16px =100% and rem is better than em */
+  margin-left: 30px;
+  color: #66BFBF;
+}
+
+.programmer-heading {
+  font-family: "Merriweather", serif;
+  font-size: 2.5em;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 379px;
+  top: 18px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  top: 137px;
+  left: 382px;
+}
+
+.top_container {
+  background-color: #EAF6F6;
+  position: relative;
+  line-height: 2;
+}
+
+.underline_txt {
+  text-decoration: underline;
+}
+
+.middle-container {
+  padding: 20px;
+
+}
+
+.profile-pic {
+  height: 250px;
+  width: 250px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.web-dev-img {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.data-analysis-img {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 100px auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Merriweather", serif;
+  font-size: xx-large;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: "Merriweather", serif;
+  font-size: large;
+}
+
+p {
+  color: #40514E;
+  font-size: large;
+  line-height: 1.7em;
+}
+
+hr {
+  border-color: #d2dfdf;
+  border-style: dotted none none;
+  height: 0px;
+  border-width: 7px;
+  width: 60;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.contact-me {
+  line-height: 2.5em;
+}
+
+.btn {
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #66BFBF;
+  border: solid 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 2.5em;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 20px;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-name {
+  color: #EAF6F6;
+  font-size: 0.76em;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
