@@ -1,0 +1,238 @@
+body {
+  margin: 0px;
+
+}
+
+.top-container {
+  background-image: url(/LandingPage/photos/home\ page.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+}
+
+nav {
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+}
+
+.top-heading {
+  color: #333;
+  font-size: 80px;
+}
+
+.second-container {
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  text-align: center;
+  color: #333;
+  font-size: xx-large;
+}
+
+.logo-img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.turkey-heading {
+  margin-top: 0px;
+}
+
+.third-container {
+  background-color: #333;
+  width: 100%;
+  height: 110%;
+  color: aliceblue;
+  text-align: center;
+
+  padding-bottom: 30px;
+
+  h1 {
+    padding-top: 20px;
+    font-size: xx-large;
+  }
+}
+
+.image1-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1b120c;
+  width: 350px;
+  height: 520px;
+  border-radius: 20px;
+  float: left;
+}
+
+.image1-container:hover {
+  width: 360px;
+  height: 530px;
+
+  img {
+    width: 280px;
+    height: 320px;
+  }
+}
+
+.cappadocia-img {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.image2-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1b120c;
+  width: 350px;
+  height: 520px;
+  border-radius: 20px;
+  float: right;
+}
+
+.image2-container:hover {
+  width: 360px;
+  height: 530px;
+
+  img {
+    width: 280px;
+    height: 320px;
+  }
+}
+
+.Topkapi-img {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.image3-container {
+  padding: 20px;
+  background-color: #1b120c;
+  width: 350px;
+  height: 520px;
+  border-radius: 20px;
+  margin: 42px auto auto;
+}
+
+.image3-container:hover {
+  width: 360px;
+  height: 530px;
+
+  img {
+    width: 280px;
+    height: 320px;
+  }
+}
+
+.HagiaSophia-img {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.bttn-third-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 14px 30;
+  margin: 15px 5px;
+  color: #333;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bttn-third-container:hover {
+  background-color: #1b120c;
+  color: #ffffff;
+
+}
+
+.fourth-container {
+  position: relative;
+  width: 100%;
+  height: 55%;
+  background-color: #ffffff;
+
+  div {
+    height: 326px;
+    width: 280px;
+    opacity: 0.7;
+    background-color: #1b120c;
+    position: absolute;
+    margin-right: 200px;
+    right: 180px;
+    top: 14px;
+    border-radius: 20px;
+    
+  }
+}
+
+.fourth-container-heading {
+  position: absolute;
+  left: 220px;
+  font-size: 60px;
+  top: 5px;
+  margin-top: 0px;
+  color: #333;
+
+}
+
+.fourth-container-img {
+  position: absolute;
+  width: 280px;
+  height: 330px;
+  float: right;
+  margin-right: 200px;
+  right: 210px;
+  top: 10px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.fourth-container-para {
+  height: 200px;
+  width: 262px;
+  position: absolute;
+  background-color: #1b120c;
+  padding: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  left: 220px;
+  top: 60px;
+}
+
+/* .fifth-container{
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+} */
